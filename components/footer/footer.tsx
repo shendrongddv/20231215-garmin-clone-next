@@ -33,9 +33,7 @@ const Footer = () => {
         <div className="grid gap-12 sm:grid-cols-2 md:grid-cols-4">
           {siteNavFooter?.map((item) => (
             <div key={item.id} className="grid gap-4">
-              <span className="font-display text-lg font-bold">
-                {item.label}
-              </span>
+              <span className="font-display text-lg">{item.label}</span>
 
               <ul className="grid grid-cols-2 gap-2 sm:grid-cols-1">
                 {item.sublinks?.map((item) => (
