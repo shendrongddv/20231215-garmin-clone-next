@@ -27,7 +27,7 @@ const AdditionalLinks = [
 
 const Footer = () => {
   return (
-    <footer className="bg-foreground px-4 pt-24 text-sm text-white">
+    <footer className="bg-foreground px-6 pt-24 text-sm text-white">
       <div className="container flex flex-col gap-12">
         {/* Row */}
         <div className="grid gap-12 sm:grid-cols-2 md:grid-cols-4">

@@ -1,11 +1,8 @@
-import { fakeBlogs } from "@/config/faker";
-import Link from "next/link";
-
 const Section_Subscribe = () => {
   return (
-    <section className="px-4 py-24">
+    <section className="px-6 py-24">
       <div className="container flex flex-col items-center gap-8">
-        <h2 className="text-center font-display text-3xl font-bold uppercase">
+        <h2 className="text-center font-display text-3xl uppercase text-foreground">
           Berlangganan Buletin
         </h2>
 

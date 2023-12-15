@@ -3,7 +3,7 @@ export const fakeEvents = [
   {
     id: 1,
     title: "Give a Garmin",
-    desc: "Give A Garmin,Saatnya Anda Memiliki Forerunner.Nikmati Promo Forerunner Series hingga 25% Spesial untuk Anda.Periode 1 - 31 Desember 2023.",
+    desc: "Saatnya Anda Memiliki Forerunner.Nikmati Promo Forerunner Series hingga 25% Spesial untuk Anda.Periode 1 - 31 Desember 2023.",
     url: "/",
     image: "event-1.jpg",
   },
