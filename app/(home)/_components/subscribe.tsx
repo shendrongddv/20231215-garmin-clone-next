@@ -6,7 +6,10 @@ const Section_Subscribe = () => {
           Berlangganan Buletin
         </h2>
 
-        {/* Row */}
+        <p className="text-center text-sm transition-transform md:w-1/2">
+          Dapatkan berita dan promosi produk berdasarkan preferensi Anda dan
+          perangkat terdaftar. Pelajari tentang privasi email.
+        </p>
       </div>
     </section>
   );

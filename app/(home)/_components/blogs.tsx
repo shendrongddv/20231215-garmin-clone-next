@@ -14,7 +14,7 @@ const Section_Blogs = () => {
           {fakeBlogs?.map((item) => (
             <li
               key={item.id}
-              className="group flex flex-col items-center gap-3 text-center md:items-start md:text-start"
+              className="group flex flex-col items-center gap-3 text-center font-body md:items-start md:text-start"
             >
               <span className="rounded bg-foreground p-1 px-2 text-xs leading-none text-white">
                 {item.tag}
