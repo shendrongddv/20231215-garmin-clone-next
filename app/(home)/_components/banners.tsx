@@ -88,7 +88,7 @@ const Section_Banners = () => {
                 alt={item.title}
                 width={480}
                 height={480}
-                className="h-full w-auto object-cover"
+                className="h-full w-full object-cover"
               />
             </figure>
 
