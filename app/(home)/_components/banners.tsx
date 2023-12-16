@@ -52,6 +52,7 @@ const Section_Banners = () => {
           <div className="relative hidden w-full md:flex md:items-center md:justify-center">
             <figure className="aspect-h-3 aspect-w-10 z-0 w-full">
               <Image
+                priority
                 src={`/banners/${item.media.desktop}`}
                 alt={item.title}
                 width={1024}
@@ -84,6 +85,7 @@ const Section_Banners = () => {
           <div className="flex flex-col md:hidden">
             <figure className="aspect-1">
               <Image
+                priority
                 src={`/banners/${item.media.mobile}`}
                 alt={item.title}
                 width={480}
